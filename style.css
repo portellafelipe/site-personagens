@@ -1,0 +1,134 @@
+body {
+    background-color: rgb(255, 210, 252);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+
+/* Título principal */
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    color: orange;
+    margin-bottom: 40px;
+}
+
+
+/* Seções dos personagens */
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 30px;
+    border: 2px solid #680076;
+    border-radius: 10px;
+}
+
+
+/* Títulos dos personagens */
+
+h3,
+h4 {
+    color: #680076;
+    font-size: 26px;
+}
+
+
+/* Textos */
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+/* Parte destacada do texto */
+
+mark {
+    background-color: rgb(133, 221, 133);
+    padding: 2px 5px;
+}
+
+
+/* Listas */
+
+ul,
+ol {
+    background-color: #f8eafa;
+    padding: 15px 35px;
+    border-radius: 8px;
+}
+
+
+li {
+    margin-bottom: 8px;
+}
+
+
+/* Links */
+
+a {
+    display: inline-block;
+    background-color: orange;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+/* Efeito quando passa o mouse */
+
+a:hover {
+    background-color: #680076;
+}
+
+
+/* Tabela */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: white;
+}
+
+
+/* Cabeçalho da tabela */
+
+th {
+    background-color: #680076;
+    color: white;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+
+/* Células */
+
+td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #680076;
+}
+
+
+/* Efeito ao passar o mouse na tabela */
+
+tr:hover {
+    background-color: #c503c9;
+    color: white;
+}
+
+
+/* Rodapé */
+
+footer {
+    background-color: rgb(233, 210, 255);
+    padding: 30px 20px;
+    margin-top: 30px;
+    text-align: center;
+}
