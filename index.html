@@ -26,7 +26,7 @@
             <li>Absorveu cinco tiros e demoliu um armazém inteiro.</li>
             <li>Destruiu um depósito de tráfico sem ferir nenhuma vítima.</li>
         </ol> 
-        <a href="https://pt.wikipedia.org/wiki/Bomba_de_hidrog%C3%A9nio">Descubra mais sobre A Explosiva</a>
+        <a href="">Descubra mais sobre A Explosiva</a>
     </section>
     
     <section>
@@ -48,7 +48,7 @@
             <li>Uniu 400 trabalhadores e derrubou uma multinacional.</li>
             <li>Destruiu uma delegacia corrupta e libertou seis inocentes.</li>
         </ol>    
-        <a href="https://pt.wikipedia.org/wiki/Palha%C3%A7o">Descubra mais sobre O palhaço justo</a>
+        <a href="">Descubra mais sobre O palhaço justo</a>
     </section>
     
     <section>
@@ -69,41 +69,201 @@
             <li>Expulsou uma equipe armada usando a floresta como arma.</li>
             <li>Usou centenas de animais para salvar a floresta.</li>
         </ol> 
-        <a href="https://pt.wikipedia.org/wiki/Tigre">Descubra mais sobre o Tigre humano</a>
+        <a href="">Descubra mais sobre o Tigre humano</a>
     </section>
     
     <section>
-        <h2>Tabela dos Campeões</h2>
-        <table>
-    <tr>
-        <th><b>Nome</b></th>
-        <th><b>Universo</b></th>
-        <th><b>Poder Principal</b></th>
-        <th><b>Primeira Aparição</b></th>
-    </tr>
-    <tr>
-        <td>A Explosiva</td>
-        <td>Planeta Terra</td>
-        <td>Toque explosivo</td>
-        <td>Fábrica em Curitiba</td>
-    </tr>
-    <tr>
-        <td>O palhaço justo</td>
-        <td>Planeta Terra</td>
-        <td>Amplificação física extrema</td>
-        <td>Parque da região metropolitana</td>
-    </tr>
-    <tr>
-        <td>O Tigre humano</td>
-        <td>Planeta Terra</td>
-        <td>Garras felinas</td>
-        <td>Zoológico no Boqueirão</td>
-    </tr>
-</table>
-    </section>
+    <h2>Tabela dos Campeões</h2>
 
-    <footer>
-        <p>Por Felipe Portella Mendes e Victor Alves da Luz -- 2026</p>
-    </footer>
+    <div class="filtros">
+        <input 
+            type="text" 
+            id="pesquisa" 
+            placeholder="Pesquisar personagem, universo ou poder"
+        >
+
+        <select id="ordenacao">
+            <option value="original">Ordenação original</option>
+            <option value="nome">Ordenar por nome</option>
+            <option value="universo">Ordenar por universo</option>
+            <option value="poder">Ordenar por poder</option>
+        </select>
+    </div>
+
+    <table id="tabelaPersonagens">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Universo</th>
+                <th>Poder Principal</th>
+                <th>Primeira Aparição</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <!-- Personagens originais -->
+
+            <tr>
+                <td>A Explosiva</td>
+                <td>Planeta Terra</td>
+                <td>Toque explosivo</td>
+                <td>Fábrica em Curitiba</td>
+            </tr>
+
+            <tr>
+                <td>O Palhaço Justo</td>
+                <td>Planeta Terra</td>
+                <td>Amplificação física extrema</td>
+                <td>Parque da região metropolitana</td>
+            </tr>
+
+            <tr>
+                <td>O Tigre Humano</td>
+                <td>Planeta Terra</td>
+                <td>Garras felinas</td>
+                <td>Zoológico no Boqueirão</td>
+            </tr>
+
+            <!-- Novos personagens -->
+
+            <tr>
+                <td>Senhora do Gelo</td>
+                <td>Reino Glacial</td>
+                <td>Controle do gelo</td>
+                <td>Montanhas do Norte</td>
+            </tr>
+
+            <tr>
+                <td>O Relâmpago</td>
+                <td>Planeta Terra</td>
+                <td>Super velocidade</td>
+                <td>Curitiba</td>
+            </tr>
+
+            <tr>
+                <td>A Sombra</td>
+                <td>Cidade Noturna</td>
+                <td>Invisibilidade</td>
+                <td>Centro da cidade</td>
+            </tr>
+
+            <tr>
+                <td>O Gigante Verde</td>
+                <td>Planeta Terra</td>
+                <td>Super força</td>
+                <td>Empresa de reciclagem</td>
+            </tr>
+
+            <tr>
+                <td>A Mente</td>
+                <td>Planeta Terra</td>
+                <td>Telepatia</td>
+                <td>Laboratório científico</td>
+            </tr>
+
+            <tr>
+                <td>Capitão Rocha</td>
+                <td>Planeta Terra</td>
+                <td>Corpo indestrutível</td>
+                <td>Cratera espacial</td>
+            </tr>
+
+            <tr>
+                <td>A Curandeira</td>
+                <td>Reino Encantado</td>
+                <td>Cura</td>
+                <td>Vila Encantada</td>
+            </tr>
+
+            <tr>
+                <td>O Homem de Ferro-Velho</td>
+                <td>Cidade Mecânica</td>
+                <td>Armadura tecnológica</td>
+                <td>Ferro-velho</td>
+            </tr>
+
+            <tr>
+                <td>A Mulher Elástica</td>
+                <td>Planeta Terra</td>
+                <td>Elasticidade</td>
+                <td>Laboratório</td>
+            </tr>
+
+            <tr>
+                <td>O Homem Invisível</td>
+                <td>Cidade Secreta</td>
+                <td>Invisibilidade</td>
+                <td>Laboratório secreto</td>
+            </tr>
+
+            <tr>
+                <td>A Mulher do Tempo</td>
+                <td>Planeta Terra</td>
+                <td>Controle climático</td>
+                <td>Estação meteorológica</td>
+            </tr>
+
+            <tr>
+                <td>O Homem de Pedra</td>
+                <td>Montanhas Antigas</td>
+                <td>Transformação em pedra</td>
+                <td>Caverna misteriosa</td>
+            </tr>
+
+            <tr>
+                <td>A Arqueira Dourada</td>
+                <td>Reino Dourado</td>
+                <td>Precisão sobrenatural</td>
+                <td>Castelo Dourado</td>
+            </tr>
+
+            <tr>
+                <td>O Homem da Gravidade</td>
+                <td>Planeta Terra</td>
+                <td>Manipulação da gravidade</td>
+                <td>Centro de pesquisas</td>
+            </tr>
+
+            <tr>
+                <td>A Guardiã da Luz</td>
+                <td>Reino Celestial</td>
+                <td>Manipulação de luz</td>
+                <td>Templo Celestial</td>
+            </tr>
+
+            <tr>
+                <td>O Homem das Sombras</td>
+                <td>Dimensão Sombria</td>
+                <td>Controle das sombras</td>
+                <td>Portal dimensional</td>
+            </tr>
+
+            <tr>
+                <td>O Guardião da Floresta</td>
+                <td>Floresta Encantada</td>
+                <td>Controle das plantas</td>
+                <td>Floresta Amazônica</td>
+            </tr>
+
+            <tr>
+                <td>A Fênix</td>
+                <td>Reino Celestial</td>
+                <td>Renascimento</td>
+                <td>Templo de Fogo</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <p id="nenhumResultado">Nenhum personagem encontrado.</p>
+</section>
+
+<footer>
+    <p>Por Felipe Portella Mendes e Victor Alves da Luz -- 2026</p>
+</footer>
+
+<script src="script.js"></script>
+
 </body>
 </html>
